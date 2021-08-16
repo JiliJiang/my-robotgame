@@ -84,7 +84,8 @@ var mainGame = function () {
       shop();
     }
   }
-  window.alert("You have had " + i + "rounds. \nGame Over!");
+  
+  window.alert("You have had " + enemies.length + " Rounds. \nGame Over!");
   window.alert("Your final score is: " + player.money);
 
   var highScore = localStorage.getItem("highscore");
